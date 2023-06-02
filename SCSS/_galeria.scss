@@ -5,6 +5,11 @@
         text-align: center;
         font-size: 2rem;
     }
+    img {
+        -webkit-box-shadow: 0px 0px 17px 0px rgba(15, 14, 14,1);
+        -moz-box-shadow: 0px 0px 17px 0px rgba(15, 14, 14,1);
+        box-shadow: 0px 0px 17px 0px rgba(15, 14, 14,1);
+    }
 }
 
 .carousel-item {
