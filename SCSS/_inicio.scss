@@ -1,0 +1,38 @@
+// MAIN INDEX 
+
+body {
+    font-family: "Dongle", sans-serif;
+    background-color: $color-principal;
+}
+
+.padre-card {
+    gap: 15px;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .card {
+    border: solid 5px #ab33286c;
+    background-color: $color-principal;
+    width: 26rem;
+    -webkit-box-shadow: 0px 0px 17px 0px rgba(15, 14, 14,1);
+    -moz-box-shadow: 0px 0px 17px 0px rgba(15, 14, 14,1);
+    box-shadow: 0px 0px 17px 0px rgba(15, 14, 14,1);
+    padding: 5px;
+    img {
+        width: 300px;
+    }
+  }
+  
+  .card-body {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  .card-title {
+    font-size: 2.5rem;
+    color: black;
+  }
+
+

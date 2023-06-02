@@ -1,0 +1,7 @@
+poner logos wpp e ig en todas las pag
+
+en galeria agregar texto adentro del carusel
+
+agregar margen top en las card del index
+
+agregar sombra en todas las imagenes

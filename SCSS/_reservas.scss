@@ -1,0 +1,49 @@
+/* RESERVAS  */
+.reservas {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+    h2 {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+  }
+
+  .reservas-art {
+    background-color: $color-principal;
+    width: 500px;
+    padding: 25px;
+    border: solid 15px #ab33286c;
+    -webkit-box-shadow: 0px 0px 17px 0px rgba(15, 14, 14,1);
+    -moz-box-shadow: 0px 0px 17px 0px rgba(15, 14, 14,1);
+    box-shadow: 0px 0px 17px 0px rgba(15, 14, 14,1);
+    font-size: 1rem;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .reservas-img {
+    img {
+        width: 250px;
+        -webkit-box-shadow: 0px 0px 17px 0px rgba(15, 14, 14,1);
+        -moz-box-shadow: 0px 0px 17px 0px rgba(15, 14, 14,1);
+        box-shadow: 0px 0px 17px 0px rgba(15, 14, 14,1);
+    }
+    @media (max-width: 505px) {
+        margin-bottom: 20px;
+     }
+}
+
+.reservas-img2 {
+    img {
+        width: 250px;
+        -webkit-box-shadow: 0px 0px 17px 0px rgba(15, 14, 14,1);
+        -moz-box-shadow: 0px 0px 17px 0px rgba(15, 14, 14,1);
+        box-shadow: 0px 0px 17px 0px rgba(15, 14, 14,1);
+    }
+    @media (max-width: 505px) {
+        margin-top: 20px;
+    }
+}
+  

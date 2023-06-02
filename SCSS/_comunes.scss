@@ -1,0 +1,110 @@
+/* GENERAL */
+* {
+    margin: 0 auto;
+    padding: 0;
+    text-decoration: none;
+  }
+
+//   HEADER
+  .banner {
+    background-color: $color-principal;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    display: flex;
+    align-items: center;
+    color: black;
+  }
+
+  .logo {
+    width: 200px;
+    border: ridge $color-principal 15px;
+    @media (max-width: 768px) {
+        width: 150px;
+    }
+  }
+  
+  .hijo-banner {
+    text-align: center;
+    h1 {
+        font-size: 3rem;
+    }
+    h3 {
+        font-size: 2,5rem;
+    }
+    @media (min-width: 1200px) {
+        margin-right: 250px;
+    }
+    @media (max-width: 500px) {
+            display: none;
+    }
+  }
+
+//   NAV 
+.nav-padre {
+  justify-content: center;
+  font-size: 1.5rem;
+  background-color: $color-secundario;
+  li {
+    margin: 8px;
+    &:hover {
+      background-color: $color-principal;
+    }
+  }
+  a {
+    color: goldenrod;
+  }
+}
+
+//   SECCION INFO 
+.mas-info {
+    text-align: center;
+    color: black;
+    padding: 50px;
+    h2 {
+        font-size: 3rem;
+    }
+    a {
+        font-size: 2.5rem;
+        text-decoration: none;
+        color: black;
+    }
+  }
+
+//   REDES 
+.padre-redes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    @media (min-width: 768px) {
+        flex-direction: column;
+        position: fixed;
+        top: 40%;
+        right: 2%;
+    }
+  }
+
+  .redes {
+    width: 35px;
+    @media (max-width: 768px) {
+        margin-bottom: 30px;  
+    }
+  }
+
+  .titulo-redes {
+    text-align: center;
+    justify-content: center;
+    color: black;
+    @media (min-width: 768px) {
+        display: none;
+    }
+  }
+
+//   FOOTER 
+footer {
+    background-color: $color-secundario;
+    color: goldenrod;
+    position: absolute;
+    font-size: 20px;
+    h4 {
+        margin-left: 20px;
+    }
+  }

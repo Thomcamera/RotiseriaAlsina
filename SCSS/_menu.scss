@@ -1,0 +1,38 @@
+// MENU - MAIN 
+
+.menu-padre {
+    justify-content: center;
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 0 auto;
+}
+
+.menu-carta {
+    width: 400px;
+    border: solid 5px #ab33286c; 
+    -webkit-box-shadow: 1px 0px 17px 0px rgba(15, 14, 14,1);
+    -moz-box-shadow: 1px 0px 17px 0px rgba(15, 14, 14,1);
+    box-shadow: 1px 0px 17px 0px rgba(15, 14, 14,1);
+    text-align: center;
+    justify-content: center;
+    margin: 40px 40px;
+    @media (max-width: 300px) {
+        font-size: 1.4rem;
+        margin-right: 80px;
+    }
+    @media (max-width: 240px) {
+        font-size: 1rem;
+    }
+    @media (max-width: 200px) {
+        font-size: 0.7rem;
+    }
+    h2 {
+        // font-size: 2rem;
+        color: black;
+        gap: 10px;
+        text-decoration: underline;
+    }
+    ul {
+        list-style: none;
+    }
+}
