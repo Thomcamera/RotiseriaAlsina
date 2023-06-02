@@ -11,45 +11,50 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300;700&display=swap" rel="stylesheet">
+
+    <!-- ANIMATE -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 
 <body>
     <header id="inicio">
 
-        <div class="banner container">
-          <a href="index.html">
-            <img class="logo" src="imgs/logo1.jpg" alt="Logo">
-          </a>
-          <div class="hijo-banner">
-            <h1><strong>Rotisería Alsina</strong></h1>
-            <h4>Comida hecha en el momento</h4>
+      <div class="banner container animate__animated animate__zoomIn">
+        <a href="index.html">
+          <img class="logo" src="imgs/logo1.jpg" alt="Logo">
+        </a>
+        <div class="hijo-banner">
+          <h1><strong>Rotisería Alsina</strong></h1>
+          <h4>Comida hecha en el momento</h4>
+        </div>
+      </div>
+
+      <nav class="navbar navbar-expand-lg nav-padre animate__animated animate__backInLeft">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav menu">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/menu.html">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/galeria.html">Galeria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/trabaja.html">Trabaja con nosotros</a>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/reservas.html">Reservas</a>
+            </ul>
           </div>
         </div>
-
-        <nav class="navbar navbar-expand-lg nav-padre">
-          <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav menu">
-                <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="pages/menu.html">Menu</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="pages/galeria.html">Galeria</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="pages/trabaja.html">Trabaja con nosotros</a>
-                <li class="nav-item">
-                  <a class="nav-link" href="pages/reservas.html">Reservas</a>
-              </ul>
-            </div>
-          </div>
-        </nav>
+      </nav>
     </header>
 
 <main>
