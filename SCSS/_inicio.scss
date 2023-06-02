@@ -13,7 +13,7 @@ body {
   }
   
   .card {
-    border: solid 5px #ab33286c;
+    border: solid 5px $color-terciario;
     background-color: $color-principal;
     width: 26rem;
     -webkit-box-shadow: 0px 0px 17px 0px rgba(15, 14, 14,1);

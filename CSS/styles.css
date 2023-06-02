@@ -58,6 +58,10 @@
   color: goldenrod;
 }
 
+.navbar-toggler-icon {
+  background-color: rgba(171, 51, 40, 0.4235294118);
+}
+
 .mas-info {
   text-align: center;
   color: black;
