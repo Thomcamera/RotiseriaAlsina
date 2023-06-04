@@ -9,7 +9,9 @@
   background-color: #ab3428;
   font-family: Georgia, "Times New Roman", Times, serif;
   display: flex;
+  justify-content: center;
   align-items: center;
+  text-align: center;
   color: black;
 }
 
@@ -45,8 +47,11 @@
 
 .nav-padre {
   justify-content: center;
+  align-items: center;
+  text-align: center;
   font-size: 1.5rem;
   background-color: #35100d;
+  margin-bottom: 15px;
 }
 .nav-padre li {
   margin: 8px;
@@ -59,7 +64,7 @@
 }
 
 .navbar-toggler-icon {
-  background-color: rgba(171, 51, 40, 0.4235294118);
+  background-color: #ab3428;
 }
 
 .mas-info {
@@ -104,8 +109,9 @@
 }
 
 .titulo-redes {
-  text-align: center;
   justify-content: center;
+  align-items: center;
+  text-align: center;
   color: black;
 }
 @media (min-width: 768px) {

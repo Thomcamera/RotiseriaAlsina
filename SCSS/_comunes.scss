@@ -10,7 +10,7 @@
     background-color: $color-principal;
     font-family: Georgia, "Times New Roman", Times, serif;
     display: flex;
-    align-items: center;
+    @include centrado;
     color: black;
   }
 
@@ -40,9 +40,10 @@
 
 //   NAV 
 .nav-padre {
-  justify-content: center;
+  @include centrado;
   font-size: 1.5rem;
   background-color: $color-secundario;
+  margin-bottom: 15px;
   li {
     margin: 8px;
     &:hover {
@@ -55,8 +56,9 @@
 }
 
 .navbar-toggler-icon {
-  background-color: $color-terciario;
+  background-color: $color-principal;
 }
+
 
 //   SECCION INFO 
 .mas-info {
@@ -99,8 +101,7 @@
   }
 
   .titulo-redes {
-    text-align: center;
-    justify-content: center;
+    @include centrado;
     color: black;
     @media (min-width: 768px) {
         display: none;

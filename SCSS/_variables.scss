@@ -2,3 +2,10 @@
 $color-principal: #ab3428;
 $color-secundario: #35100d;
 $color-terciario: #ab33286c;
+
+// CENTRADO 
+@mixin centrado {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
