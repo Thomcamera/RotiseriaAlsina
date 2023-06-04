@@ -151,6 +151,9 @@ body {
   box-shadow: 0px 0px 17px 0px rgb(15, 14, 14);
   padding: 5px;
 }
+.card:hover {
+  transform: skew(1deg, 1deg);
+}
 .card img {
   width: 300px;
   -webkit-box-shadow: 0px 0px 17px 0px rgb(15, 14, 14);
@@ -175,7 +178,6 @@ body {
 
 .menu-padre {
   justify-content: center;
-  text-align: center;
   font-size: 1.8rem;
   margin: 0 auto;
 }
@@ -187,8 +189,10 @@ body {
   -moz-box-shadow: 1px 0px 17px 0px rgb(15, 14, 14);
   box-shadow: 1px 0px 17px 0px rgb(15, 14, 14);
   text-align: center;
-  justify-content: center;
   margin: 40px 40px;
+}
+.menu-carta:hover {
+  transform: scale(1.05, 1.05);
 }
 @media (max-width: 300px) {
   .menu-carta {
@@ -256,6 +260,20 @@ body {
 
 .trabaja-dir {
   text-align: center;
+}
+
+.textarea-foco {
+  width: 80px;
+  transition: width 5s;
+}
+.textarea-foco:focus {
+  background-color: grey;
+  width: 400px;
+}
+@media (max-width: 400px) {
+  .textarea-foco:focus {
+    width: 200px;
+  }
 }
 
 /* RESERVAS  */

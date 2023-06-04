@@ -15,4 +15,19 @@
 
 .trabaja-dir {
     text-align: center;
+    // height: 20px;
+}
+
+.textarea-foco {
+    width: 80px;
+    transition: width 5s;
+    &:focus {
+        background-color: grey;
+        width: 400px;
+    }
+    @media (max-width: 400px) {
+        &:focus {
+            width: 200px;
+        }
+    }
 }
