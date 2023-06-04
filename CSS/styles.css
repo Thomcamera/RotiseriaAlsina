@@ -70,12 +70,12 @@
 .mas-info h2 {
   font-size: 3rem;
 }
-.mas-info a {
+
+.info-link a {
   font-size: 2.5rem;
   text-decoration: none;
-  color: white;
 }
-.mas-info a:hover {
+.info-link a:hover {
   color: goldenrod;
 }
 

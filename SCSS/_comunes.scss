@@ -66,16 +66,17 @@
     h2 {
         font-size: 3rem;
     }
-    a {
-        font-size: 2.5rem;
-        text-decoration: none;
-        color: white;
-        &:hover {
-          color: goldenrod;
-        }
-    }
   }
 
+  .info-link {
+    a {
+      font-size: 2.5rem;
+      text-decoration: none;
+      &:hover {
+        color: goldenrod;
+      }
+  }
+  }
 //   REDES 
 .padre-redes {
     display: flex;
