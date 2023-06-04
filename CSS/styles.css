@@ -195,21 +195,6 @@ body {
 .menu-carta:hover {
   transform: scale(1.05, 1.05);
 }
-@media (max-width: 300px) {
-  .menu-carta {
-    font-size: 1.4rem;
-  }
-}
-@media (max-width: 240px) {
-  .menu-carta {
-    font-size: 1rem;
-  }
-}
-@media (max-width: 200px) {
-  .menu-carta {
-    font-size: 0.7rem;
-  }
-}
 .menu-carta h2 {
   color: black;
   gap: 10px;
@@ -256,6 +241,9 @@ body {
 
 .botonEnviar {
   width: 80px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
 }
 
 .trabaja-dir {
@@ -263,7 +251,7 @@ body {
 }
 
 .textarea-foco {
-  width: 80px;
+  width: 100px;
   transition: width 5s;
 }
 .textarea-foco:focus {

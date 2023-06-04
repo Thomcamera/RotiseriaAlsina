@@ -11,15 +11,17 @@
 
 .botonEnviar {
     width: 80px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
 }
 
 .trabaja-dir {
     text-align: center;
-    // height: 20px;
 }
 
 .textarea-foco {
-    width: 80px;
+    width: 100px;
     transition: width 5s;
     &:focus {
         background-color: grey;
