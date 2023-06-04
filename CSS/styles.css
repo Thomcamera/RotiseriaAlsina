@@ -75,13 +75,12 @@
 .mas-info h2 {
   font-size: 3rem;
 }
-
-.info-link a {
+.mas-info a {
   font-size: 2.5rem;
   text-decoration: none;
   color: black;
 }
-.info-link a:hover {
+.mas-info a:hover {
   color: goldenrod;
 }
 
@@ -178,8 +177,10 @@ body {
 
 .menu-padre {
   justify-content: center;
+  align-items: center;
   font-size: 1.8rem;
   margin: 0 auto;
+  text-align: center;
 }
 
 .menu-carta {
@@ -188,7 +189,7 @@ body {
   -webkit-box-shadow: 1px 0px 17px 0px rgb(15, 14, 14);
   -moz-box-shadow: 1px 0px 17px 0px rgb(15, 14, 14);
   box-shadow: 1px 0px 17px 0px rgb(15, 14, 14);
-  text-align: center;
+  justify-content: center;
   margin: 40px 40px;
 }
 .menu-carta:hover {
