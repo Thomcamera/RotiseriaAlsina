@@ -74,6 +74,7 @@
 .info-link a {
   font-size: 2.5rem;
   text-decoration: none;
+  color: black;
 }
 .info-link a:hover {
   color: goldenrod;
