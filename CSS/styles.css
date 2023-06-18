@@ -227,6 +227,14 @@ body {
 .galeria-curso h3 {
   font-size: 2rem;
 }
+.galeria-curso .video-curso {
+  width: 500px;
+}
+@media (max-width: 768px) {
+  .galeria-curso .video-curso {
+    width: 180px;
+  }
+}
 
 .trabaja-form {
   justify-content: center;

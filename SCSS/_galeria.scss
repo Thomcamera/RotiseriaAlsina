@@ -24,4 +24,11 @@
     h3 {
         font-size: 2rem;
     }
+    .video-curso {
+        width: 500px;
+        @media (max-width:768px) {
+            width: 180px;
+        }
+        }
+    
 }
